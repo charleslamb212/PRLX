@@ -20,7 +20,15 @@ header {
   align-items: center;
   height: 100%;
   transform-style: preserve-3d;
-  z-index: 1;
+  /* z-index: 1; */
+}
+
+.background {
+  transform: translateZ(-10px) scale(2);
+}
+
+.foreground {
+  transform: translateZ(-4px) scale(1.5);
 }
 
 .background,
